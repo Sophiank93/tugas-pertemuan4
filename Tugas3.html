@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interface</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+    <style type="text/css">body{ background-color : mediumpurple; </style>
+<style> 
+body {
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .photo-wrapper {
+            width: 200px;
+            height: 200px;
+            background-color: plum;
+            border: 4px solid white;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid white;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+        .info-table {
+            width: 450px;
+            background-color: thistle;
+            padding: 10px;
+            border-radius: 9px;
+            box-shadow: 0px 1px 9px 5px rgba(0, 0, 0, 0.2);
+        }
+        table {
+            width: 450px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 8px 12px;
+        }
+        td:first-child {
+            font-weight: bold;
+        }
+    button { 
+            background-color: #FAEBD7 ;
+            color: #8B0000;
+            border: 3px solid #FAEBD7 ;
+            padding: 10px;
+            margin: 14px;
+            text-align: center;
+            font-family: cursive;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer; <0xa0>
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+            border-radius:5%;
+}
+</style>
+<body>
+    <div class="container">
+    <div class="photo-wrapper"> 
+    <div class="profile-pic">
+    <img alt="Profile picture of a person with hijab" height="150" src="D:\DOCUMENT\TUGAS\SEMESTER 7\WEB\SUBLIME\fotoku.jpg" width="100"/>
+
+
+     </div>
+        </div>
+        <div class="info-table">
+            <table border="1">
+                <tr>
+                    <td>Nama</td>
+                    <td>:</td>
+                    <td>Sophia Nurhafshoh Koesnady</td>
+                </tr>
+                <tr>
+                    <td>NIM</td>
+                    <td>:</td>
+                    <td>D212111020</td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td>Cimahi</td>
+                </tr>
+                <tr>
+                    <td>Hobi</td>
+                    <td>:</td>
+                    <td> 
+                        <ul>
+                            <li>Memasak</li>
+                            <li>Menonton Film</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+                    <button onclick="showNotification()">SIMPAN</button>
+        </div>
+    </div>
+</center>
+<script> 
+    function showNotification() {
+        alert("Data Anda berhasil disimpan");
+    }
+
+</script>
+
+</body>
+</html>
